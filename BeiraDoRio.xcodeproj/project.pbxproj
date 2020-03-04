@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E93DFB6E240F29BE00D8C892 /* CalculatorAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93DFB6D240F29BE00D8C892 /* CalculatorAPI.swift */; };
+		E93DFB72240F2DA200D8C892 /* CalculatorAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93DFB71240F2DA200D8C892 /* CalculatorAPITests.swift */; };
 		E98642A4240F089C006E7959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98642A3240F089C006E7959 /* AppDelegate.swift */; };
 		E98642A6240F089C006E7959 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98642A5240F089C006E7959 /* SceneDelegate.swift */; };
-		E98642A8240F089C006E7959 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98642A7240F089C006E7959 /* ViewController.swift */; };
 		E98642AB240F089C006E7959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E98642A9240F089C006E7959 /* Main.storyboard */; };
 		E98642AD240F089E006E7959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98642AC240F089E006E7959 /* Assets.xcassets */; };
 		E98642B0240F089E006E7959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E98642AE240F089E006E7959 /* LaunchScreen.storyboard */; };
-		E98642BB240F089E006E7959 /* BeiraDoRioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98642BA240F089E006E7959 /* BeiraDoRioTests.swift */; };
+		E98642CF240F20AD006E7959 /* SumPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98642C9240F20AD006E7959 /* SumPresenter.swift */; };
+		E98642D0240F20AD006E7959 /* SumRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98642CA240F20AD006E7959 /* SumRouter.swift */; };
+		E98642D1240F20AD006E7959 /* SumModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98642CB240F20AD006E7959 /* SumModels.swift */; };
+		E98642D2240F20AD006E7959 /* SumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98642CC240F20AD006E7959 /* SumViewController.swift */; };
+		E98642D3240F20AD006E7959 /* SumInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98642CD240F20AD006E7959 /* SumInteractor.swift */; };
+		E98642D4240F20AD006E7959 /* SumWorkersProcol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98642CE240F20AD006E7959 /* SumWorkersProcol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +33,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E93DFB6D240F29BE00D8C892 /* CalculatorAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorAPI.swift; sourceTree = "<group>"; };
+		E93DFB71240F2DA200D8C892 /* CalculatorAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorAPITests.swift; sourceTree = "<group>"; };
 		E98642A0240F089C006E7959 /* BeiraDoRio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeiraDoRio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98642A3240F089C006E7959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E98642A5240F089C006E7959 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E98642A7240F089C006E7959 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E98642AA240F089C006E7959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E98642AC240F089E006E7959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E98642AF240F089E006E7959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E98642B1240F089E006E7959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E98642B6240F089E006E7959 /* BeiraDoRioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeiraDoRioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E98642BA240F089E006E7959 /* BeiraDoRioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeiraDoRioTests.swift; sourceTree = "<group>"; };
 		E98642BC240F089E006E7959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E98642C9240F20AD006E7959 /* SumPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumPresenter.swift; sourceTree = "<group>"; };
+		E98642CA240F20AD006E7959 /* SumRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumRouter.swift; sourceTree = "<group>"; };
+		E98642CB240F20AD006E7959 /* SumModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumModels.swift; sourceTree = "<group>"; };
+		E98642CC240F20AD006E7959 /* SumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumViewController.swift; sourceTree = "<group>"; };
+		E98642CD240F20AD006E7959 /* SumInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumInteractor.swift; sourceTree = "<group>"; };
+		E98642CE240F20AD006E7959 /* SumWorkersProcol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumWorkersProcol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E93DFB6C240F29AE00D8C892 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				E93DFB6D240F29BE00D8C892 /* CalculatorAPI.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		E93DFB6F240F2D2100D8C892 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E93DFB70240F2D2800D8C892 /* Sum */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E93DFB70240F2D2800D8C892 /* Sum */ = {
+			isa = PBXGroup;
+			children = (
+				E93DFB71240F2DA200D8C892 /* CalculatorAPITests.swift */,
+			);
+			path = Sum;
+			sourceTree = "<group>";
+		};
 		E9864297240F089C006E7959 = {
 			isa = PBXGroup;
 			children = (
@@ -79,12 +115,11 @@
 		E98642A2240F089C006E7959 /* BeiraDoRio */ = {
 			isa = PBXGroup;
 			children = (
+				E93DFB6C240F29AE00D8C892 /* Workers */,
+				E98642C5240F116E006E7959 /* Scenes */,
+				E98642C8240F11A5006E7959 /* UI */,
+				E98642C7240F117B006E7959 /* Resources */,
 				E98642A3240F089C006E7959 /* AppDelegate.swift */,
-				E98642A5240F089C006E7959 /* SceneDelegate.swift */,
-				E98642A7240F089C006E7959 /* ViewController.swift */,
-				E98642A9240F089C006E7959 /* Main.storyboard */,
-				E98642AC240F089E006E7959 /* Assets.xcassets */,
-				E98642AE240F089E006E7959 /* LaunchScreen.storyboard */,
 				E98642B1240F089E006E7959 /* Info.plist */,
 			);
 			path = BeiraDoRio;
@@ -93,10 +128,49 @@
 		E98642B9240F089E006E7959 /* BeiraDoRioTests */ = {
 			isa = PBXGroup;
 			children = (
-				E98642BA240F089E006E7959 /* BeiraDoRioTests.swift */,
+				E93DFB6F240F2D2100D8C892 /* Scenes */,
 				E98642BC240F089E006E7959 /* Info.plist */,
 			);
 			path = BeiraDoRioTests;
+			sourceTree = "<group>";
+		};
+		E98642C5240F116E006E7959 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E98642C6240F1172006E7959 /* Sum */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E98642C6240F1172006E7959 /* Sum */ = {
+			isa = PBXGroup;
+			children = (
+				E98642CA240F20AD006E7959 /* SumRouter.swift */,
+				E98642CC240F20AD006E7959 /* SumViewController.swift */,
+				E98642CD240F20AD006E7959 /* SumInteractor.swift */,
+				E98642C9240F20AD006E7959 /* SumPresenter.swift */,
+				E98642CE240F20AD006E7959 /* SumWorkersProcol.swift */,
+				E98642CB240F20AD006E7959 /* SumModels.swift */,
+			);
+			path = Sum;
+			sourceTree = "<group>";
+		};
+		E98642C7240F117B006E7959 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E98642AC240F089E006E7959 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E98642C8240F11A5006E7959 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E98642A5240F089C006E7959 /* SceneDelegate.swift */,
+				E98642A9240F089C006E7959 /* Main.storyboard */,
+				E98642AE240F089E006E7959 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +226,7 @@
 					};
 					E98642B5240F089E006E7959 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 						TestTargetID = E986429F240F089C006E7959;
 					};
 				};
@@ -200,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E98642A8240F089C006E7959 /* ViewController.swift in Sources */,
+				E98642D1240F20AD006E7959 /* SumModels.swift in Sources */,
+				E98642D0240F20AD006E7959 /* SumRouter.swift in Sources */,
+				E98642D4240F20AD006E7959 /* SumWorkersProcol.swift in Sources */,
+				E98642D3240F20AD006E7959 /* SumInteractor.swift in Sources */,
+				E93DFB6E240F29BE00D8C892 /* CalculatorAPI.swift in Sources */,
+				E98642D2240F20AD006E7959 /* SumViewController.swift in Sources */,
 				E98642A4240F089C006E7959 /* AppDelegate.swift in Sources */,
+				E98642CF240F20AD006E7959 /* SumPresenter.swift in Sources */,
 				E98642A6240F089C006E7959 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,7 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E98642BB240F089E006E7959 /* BeiraDoRioTests.swift in Sources */,
+				E93DFB72240F2DA200D8C892 /* CalculatorAPITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +480,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Y5KPADL48;
 				INFOPLIST_FILE = BeiraDoRioTests/Info.plist;
@@ -410,6 +492,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.tempest.BeiraDoRioTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeiraDoRio.app/BeiraDoRio";
@@ -421,6 +504,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Y5KPADL48;
 				INFOPLIST_FILE = BeiraDoRioTests/Info.plist;
