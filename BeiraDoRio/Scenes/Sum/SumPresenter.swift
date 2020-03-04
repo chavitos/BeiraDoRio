@@ -13,15 +13,19 @@
 import UIKit
 
 protocol SumPresentationLogic {
-//    func presentSomething(response: Sum.Something.Response)
+    func formatResult(result: Int)
 }
 
 class SumPresenter: SumPresentationLogic {
     weak var viewController: SumDisplayLogic?
     
     // MARK: - Do something
-//    func presentSomething(response: Sum.Something.Response) {
-//        let viewModel = Sum.Something.ViewModel()
-//        viewController?.displaySomething(viewModel: viewModel)
-//    }
+    func formatResult(result: Int) {
+        
+        if result == -1 {
+            viewController?.displayError()
+        } else {
+            viewController?.displayResult("\(result)")
+        }
+    }
 }

@@ -19,4 +19,11 @@ class CalculatorAPITests: XCTestCase {
     override func tearDown() {
         super.tearDown()
     }
+    
+    func testSum() {
+        sut = CalculatorAPI()
+        let result = sut.sum(1, with: 1)
+        
+        XCTAssertEqual(2, result)
+    }
 }

@@ -89,7 +89,6 @@
 		E93DFB70240F2D2800D8C892 /* Sum */ = {
 			isa = PBXGroup;
 			children = (
-				E93DFB71240F2DA200D8C892 /* CalculatorAPITests.swift */,
 			);
 			path = Sum;
 			sourceTree = "<group>";
@@ -128,6 +127,7 @@
 		E98642B9240F089E006E7959 /* BeiraDoRioTests */ = {
 			isa = PBXGroup;
 			children = (
+				E93DFB71240F2DA200D8C892 /* CalculatorAPITests.swift */,
 				E93DFB6F240F2D2100D8C892 /* Scenes */,
 				E98642BC240F089E006E7959 /* Info.plist */,
 			);

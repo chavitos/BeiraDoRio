@@ -13,7 +13,7 @@
 import UIKit
 
 protocol SumBusinessLogic {
-//    func doSomething(request: Sum.Something.Request)
+    func calcSum(value1: String, value2: String)
 }
 
 protocol SumDataStore {
@@ -22,15 +22,17 @@ protocol SumDataStore {
 
 class SumInteractor: SumBusinessLogic, SumDataStore {
     var presenter: SumPresentationLogic?
-//    var worker: SumWorker?
+    var worker: SumWorkerProtocol = CalculatorAPI()
     //var name: String = ""
     
     // MARK: - Do something
-//    func doSomething(request: Sum.Something.Request) {
-//        worker = SumWorker()
-//        worker?.doSomeWork()
-//
-//        let response = Sum.Something.Response()
-//        presenter?.presentSomething(response: response)
-//    }
+    func calcSum(value1: String, value2: String) {
+        guard let value1 = Int(value1), let value2 = Int(value2) else {
+            presenter?.formatResult(result: -1)
+            return
+        }
+        
+        let result = worker.sum(value1, with: value2)
+        presenter?.formatResult(result: result)
+    }
 }

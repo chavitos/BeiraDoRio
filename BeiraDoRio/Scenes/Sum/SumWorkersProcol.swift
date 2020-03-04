@@ -13,5 +13,5 @@
 import UIKit
 
 protocol SumWorkerProtocol {
-    func doSomeWork()
+    func sum(_ value1:Int, with value2:Int) -> Int
 }

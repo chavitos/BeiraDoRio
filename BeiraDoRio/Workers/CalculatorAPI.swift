@@ -8,8 +8,8 @@
 
 import Foundation
 
-struct CalculatorAPI {
-    func sum(_ value1:Double, with value2:Double) -> Double {
+struct CalculatorAPI: SumWorkerProtocol {
+    func sum(_ value1:Int, with value2:Int) -> Int {
         return value1 + value2
     }
 }

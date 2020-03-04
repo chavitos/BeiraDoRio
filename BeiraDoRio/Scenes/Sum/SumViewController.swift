@@ -13,7 +13,8 @@
 import UIKit
 
 protocol SumDisplayLogic: class {
-//    func displaySomething(viewModel: Sum.Something.ViewModel)
+    func displayResult(_ result: String)
+    func displayError()
 }
 
 class SumViewController: UIViewController, SumDisplayLogic {
@@ -62,19 +63,24 @@ class SumViewController: UIViewController, SumDisplayLogic {
     // MARK: - View lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        doSomething()
     }
     
     // MARK: - Do something
     
-    //@IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var value1: UITextField!
+    @IBOutlet weak var value2: UITextField!
     
-    func doSomething() {
-//        let request = Sum.Something.Request()
-//        interactor?.doSomething(request: request)
+    @IBOutlet weak var result: UILabel!
+    
+    @IBAction func calc(_ sender: Any) {
+        interactor?.calcSum(value1: value1.text ?? "", value2: value2.text ?? "")
     }
     
-    func displaySomething(viewModel: Sum.Something.ViewModel) {
-        //nameTextField.text = viewModel.name
+    func displayResult(_ result: String) {
+        self.result.text = result
+    }
+    
+    func displayError() {
+        self.result.text = "Error"
     }
 }
